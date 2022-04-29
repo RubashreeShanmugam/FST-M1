@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstSuite">
+    <test thread-count="4" name="Test">
+        <classes>
+            <class name="TestProject.Activity1">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity2">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity3">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity4">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity5">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity6">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity7">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity8">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+            <class name="TestProject.Activity9">
+                <methods>
+                    <include name="exampleTestCase" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
